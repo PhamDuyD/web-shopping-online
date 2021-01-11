@@ -1,0 +1,102 @@
+﻿@model PagedList.IPagedList<ShoppingOnline.Models.Entities.Product>
+@using PagedList.Mvc
+@{
+    ViewBag.Title = "Tìm kiếm | E-Shopper";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="left-sidebar">
+                    <h2>Danh mục sản phẩm</h2>
+                    <div class="panel-group category-products" id="accordian">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="#">Phụ kiện thời trang</a></h4>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="#">Thời trang nam</a></h4>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="#">Thời trang nữ</a></h4>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="#">Vali-Balo-Túi xách</a></h4>
+                            </div>
+                        </div>
+                    </div><!--/category-products-->
+
+                    <div class="shipping text-center">
+                        <!--shipping-->
+                        <img src="~/Assets/images/home/shipping.jpg" alt="" />
+                    </div><!--/shipping-->
+
+                </div>
+            </div>
+
+            <div class="col-sm-9 padding-right">
+                <div class="features_items">
+                    <!--features_items-->
+                    <h2 class="title text-center">Kết quả tìm kiếm với từ khóa: <span style="color: blue">@ViewBag.KeyWord</span></h2>
+
+                    @foreach (var item in Model)
+                    {
+                        var url = "/san-pham/" + item.Metatitle.Trim().Trim() + "-" + item.ID;
+                        <div class="back-product">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <a href="@url">
+                                            <img src="~/Assets/images/product/@item.Image" width="255px" height="319px" alt="" />
+                                        </a>
+                                        @if (item.Price != null)
+                                        {
+                                            var discount = (int)((1 - (item.Price / item.Promotion_Price)) * 100);
+                                            <p class="price-sale">
+                                                <span class="final-price">
+                                                    @item.Price.Value.ToString("N0") ₫
+                                                    <span class="sale-tag">-@discount%</span>
+                                                </span>
+                                                <span class="promotion-price">@item.Promotion_Price.Value.ToString("N0") ₫</span>
+                                            </p>
+                                        }
+                                        else
+                                        {
+                                            <p class="price-sale">
+                                                <span class="final-price">
+                                                    @item.Promotion_Price.Value.ToString("N0") ₫
+                                                </span>
+                                            </p>
+                                        }
+
+                                        <a href="@url">
+                                            <p>@item.Product_Name</p>
+                                        </a>
+                                    </div>
+                                    <div class="btn-cart">
+                                        <a href="javascript:void(0)" class="btn btn-default add-to-cart btn-addCart" data-id="@item.ID" data-quantity="1">
+                                            <i class="fa fa-shopping-cart"></i>Thêm giỏ hàng
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, @searchString = @ViewBag.SearchString }))
+                </div><!--features_items-->
+
+            </div>
+        </div>
+    </div>
+</section>
+

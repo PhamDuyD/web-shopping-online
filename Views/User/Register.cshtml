@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewBag.Title = "Đăng ký | E-Shopper";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <section id="form-login">
+        <!--form-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-1">
+                    <div class="signup-form">
+                        <h2>Đăng ký tài khoản E-Shopper</h2>
+                        @if (TempData["error"] != null)
+                        {
+                            <div class="alert alert-danger">
+                                @TempData["error"]
+                            </div>
+                        }
+                        @using (Html.BeginForm("frmRegister", "User", FormMethod.Post, new { id = "frmRegister" }))
+                        {
+                            <input type="text" placeholder="Tài khoản" name="Account" />
+                            <input type="password" placeholder="Mật khẩu" name="Password" />
+                            <input type="text" placeholder="Họ và tên" name="Fullname" />
+                            <input type="text" placeholder="Địa chỉ" name="Address" />
+                            <input type="text" placeholder="Số điện thoại" name="Phone" />
+                            <button type="submit" class="btn btn-default">Đăng ký</button>
+                        }
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+@section jsSection{
+    <script>
+        $(document).ready(function () {
+             jQuery.validator.addMethod("phonenu", function (value, element) {
+                if (/^(09[0-9]|07[0|6|7|8|9]|03[2-9]|08[1-5])+([0-9]{7})\b/g.test(value)) {
+                    return true;
+                } else {
+                    return false;
+                };
+            }, "Invalid phone number");
+            //Khi bàn phím được nhấn và thả ra thì sẽ chạy phương thức này
+            $("#frmRegister").validate({
+                rules: {
+                    Account: "required",
+                    Password: "required",
+                    Fullname: "required",
+                    Address: "required",
+                    Phone: {
+                        required: true,
+                        phonenu: true
+                    }
+                },
+                messages: {
+                    Account: "Vui lòng nhập tài khoản",
+                    Password: "Vui lòng nhập mật khẩu",
+                    Fullname: "Vui lòng nhập họ và tên",
+                    Address: "Vui lòng nhập địa chỉ",
+                    Phone: {
+                        required: "Vui lòng nhập số điện thoại",
+                        phonenu: "Số điện thoại không hợp lệ"
+                    }
+                }
+            });
+        });
+    </script>
+
+}
+

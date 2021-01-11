@@ -1,0 +1,254 @@
+E:\Part time\ShoppingOnline\bin\ShoppingOnline.dll.config
+E:\Part time\ShoppingOnline\bin\ShoppingOnline.dll
+E:\Part time\ShoppingOnline\bin\ShoppingOnline.pdb
+E:\Part time\ShoppingOnline\bin\roslyn\csc.exe
+E:\Part time\ShoppingOnline\bin\roslyn\csc.exe.config
+E:\Part time\ShoppingOnline\bin\roslyn\csc.rsp
+E:\Part time\ShoppingOnline\bin\roslyn\csi.exe
+E:\Part time\ShoppingOnline\bin\roslyn\csi.rsp
+E:\Part time\ShoppingOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Part time\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Part time\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Part time\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Part time\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Part time\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Part time\ShoppingOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Part time\ShoppingOnline\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Part time\ShoppingOnline\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Part time\ShoppingOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Part time\ShoppingOnline\bin\roslyn\System.AppContext.dll
+E:\Part time\ShoppingOnline\bin\roslyn\System.Collections.Immutable.dll
+E:\Part time\ShoppingOnline\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Part time\ShoppingOnline\bin\roslyn\System.IO.FileSystem.dll
+E:\Part time\ShoppingOnline\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Part time\ShoppingOnline\bin\roslyn\System.Reflection.Metadata.dll
+E:\Part time\ShoppingOnline\bin\roslyn\vbc.exe
+E:\Part time\ShoppingOnline\bin\roslyn\vbc.exe.config
+E:\Part time\ShoppingOnline\bin\roslyn\vbc.rsp
+E:\Part time\ShoppingOnline\bin\roslyn\VBCSCompiler.exe
+E:\Part time\ShoppingOnline\bin\roslyn\VBCSCompiler.exe.config
+E:\Part time\ShoppingOnline\bin\Antlr3.Runtime.dll
+E:\Part time\ShoppingOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Part time\ShoppingOnline\bin\Microsoft.Web.Infrastructure.dll
+E:\Part time\ShoppingOnline\bin\Newtonsoft.Json.dll
+E:\Part time\ShoppingOnline\bin\System.Web.Helpers.dll
+E:\Part time\ShoppingOnline\bin\System.Web.Mvc.dll
+E:\Part time\ShoppingOnline\bin\System.Web.Optimization.dll
+E:\Part time\ShoppingOnline\bin\System.Web.Razor.dll
+E:\Part time\ShoppingOnline\bin\System.Web.WebPages.Deployment.dll
+E:\Part time\ShoppingOnline\bin\System.Web.WebPages.dll
+E:\Part time\ShoppingOnline\bin\System.Web.WebPages.Razor.dll
+E:\Part time\ShoppingOnline\bin\WebGrease.dll
+E:\Part time\ShoppingOnline\bin\System.Web.Helpers.xml
+E:\Part time\ShoppingOnline\bin\System.Web.Mvc.xml
+E:\Part time\ShoppingOnline\bin\System.Web.Optimization.xml
+E:\Part time\ShoppingOnline\bin\System.Web.Razor.xml
+E:\Part time\ShoppingOnline\bin\System.Web.WebPages.xml
+E:\Part time\ShoppingOnline\bin\System.Web.WebPages.Deployment.xml
+E:\Part time\ShoppingOnline\bin\System.Web.WebPages.Razor.xml
+E:\Part time\ShoppingOnline\bin\Newtonsoft.Json.xml
+E:\Part time\ShoppingOnline\bin\Antlr3.Runtime.pdb
+E:\Part time\ShoppingOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Part time\ShoppingOnline\obj\Debug\ShoppingOnline.csproj.CopyComplete
+E:\Part time\ShoppingOnline\obj\Debug\ShoppingOnline.dll
+E:\Part time\ShoppingOnline\obj\Debug\ShoppingOnline.pdb
+E:\Part time\ShoppingOnline\bin\EntityFramework.dll
+E:\Part time\ShoppingOnline\bin\EntityFramework.SqlServer.dll
+E:\Part time\ShoppingOnline\bin\EntityFramework.xml
+E:\Part time\ShoppingOnline\bin\EntityFramework.SqlServer.xml
+E:\Part time\ShoppingOnline\bin\PagedList.dll
+E:\Part time\ShoppingOnline\bin\PagedList.Mvc.dll
+E:\Part time\ShoppingOnline\bin\PagedList.xml
+E:\Part time\ShoppingOnline\bin\PagedList.Mvc.xml
+E:\Part time\ShoppingOnline\obj\Debug\ShoppingOnline.csprojAssemblyReference.cache
+E:\Part time\New Project\ShoppingOnline\bin\ShoppingOnline.dll.config
+E:\Part time\New Project\ShoppingOnline\bin\ShoppingOnline.dll
+E:\Part time\New Project\ShoppingOnline\bin\ShoppingOnline.pdb
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\csc.exe
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\csc.exe.config
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\csc.rsp
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\csi.exe
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\csi.rsp
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\System.AppContext.dll
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\System.Collections.Immutable.dll
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\System.IO.FileSystem.dll
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\System.Reflection.Metadata.dll
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\vbc.exe
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\vbc.exe.config
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\vbc.rsp
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\VBCSCompiler.exe
+E:\Part time\New Project\ShoppingOnline\bin\roslyn\VBCSCompiler.exe.config
+E:\Part time\New Project\ShoppingOnline\bin\Antlr3.Runtime.dll
+E:\Part time\New Project\ShoppingOnline\bin\EntityFramework.dll
+E:\Part time\New Project\ShoppingOnline\bin\EntityFramework.SqlServer.dll
+E:\Part time\New Project\ShoppingOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Part time\New Project\ShoppingOnline\bin\Microsoft.Web.Infrastructure.dll
+E:\Part time\New Project\ShoppingOnline\bin\Newtonsoft.Json.dll
+E:\Part time\New Project\ShoppingOnline\bin\PagedList.dll
+E:\Part time\New Project\ShoppingOnline\bin\PagedList.Mvc.dll
+E:\Part time\New Project\ShoppingOnline\bin\System.Web.Helpers.dll
+E:\Part time\New Project\ShoppingOnline\bin\System.Web.Mvc.dll
+E:\Part time\New Project\ShoppingOnline\bin\System.Web.Optimization.dll
+E:\Part time\New Project\ShoppingOnline\bin\System.Web.Razor.dll
+E:\Part time\New Project\ShoppingOnline\bin\System.Web.WebPages.Deployment.dll
+E:\Part time\New Project\ShoppingOnline\bin\System.Web.WebPages.dll
+E:\Part time\New Project\ShoppingOnline\bin\System.Web.WebPages.Razor.dll
+E:\Part time\New Project\ShoppingOnline\bin\WebGrease.dll
+E:\Part time\New Project\ShoppingOnline\bin\EntityFramework.xml
+E:\Part time\New Project\ShoppingOnline\bin\EntityFramework.SqlServer.xml
+E:\Part time\New Project\ShoppingOnline\bin\PagedList.xml
+E:\Part time\New Project\ShoppingOnline\bin\PagedList.Mvc.xml
+E:\Part time\New Project\ShoppingOnline\bin\System.Web.Helpers.xml
+E:\Part time\New Project\ShoppingOnline\bin\System.Web.Mvc.xml
+E:\Part time\New Project\ShoppingOnline\bin\System.Web.Optimization.xml
+E:\Part time\New Project\ShoppingOnline\bin\System.Web.Razor.xml
+E:\Part time\New Project\ShoppingOnline\bin\System.Web.WebPages.xml
+E:\Part time\New Project\ShoppingOnline\bin\System.Web.WebPages.Deployment.xml
+E:\Part time\New Project\ShoppingOnline\bin\System.Web.WebPages.Razor.xml
+E:\Part time\New Project\ShoppingOnline\bin\Newtonsoft.Json.xml
+E:\Part time\New Project\ShoppingOnline\bin\Antlr3.Runtime.pdb
+E:\Part time\New Project\ShoppingOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Part time\New Project\ShoppingOnline\obj\Debug\ShoppingOnline.csprojAssemblyReference.cache
+E:\Part time\New Project\ShoppingOnline\obj\Debug\ShoppingOnline.csproj.CopyComplete
+E:\Part time\New Project\ShoppingOnline\obj\Debug\ShoppingOnline.dll
+E:\Part time\New Project\ShoppingOnline\obj\Debug\ShoppingOnline.pdb
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\ShoppingOnline.dll.config
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\ShoppingOnline.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\ShoppingOnline.pdb
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\csc.exe
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\csc.exe.config
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\csc.rsp
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\csi.exe
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\csi.rsp
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\System.AppContext.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\vbc.exe
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\vbc.exe.config
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\vbc.rsp
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\VBCSCompiler.exe
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\Antlr3.Runtime.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\EntityFramework.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\EntityFramework.SqlServer.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\Newtonsoft.Json.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\PagedList.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\PagedList.Mvc.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\System.Web.Helpers.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\System.Web.Mvc.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\System.Web.Optimization.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\System.Web.Razor.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\System.Web.WebPages.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\System.Web.WebPages.Razor.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\WebGrease.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\EntityFramework.xml
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\EntityFramework.SqlServer.xml
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\PagedList.xml
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\PagedList.Mvc.xml
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\System.Web.Helpers.xml
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\System.Web.Mvc.xml
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\System.Web.Optimization.xml
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\System.Web.Razor.xml
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\System.Web.WebPages.xml
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\System.Web.WebPages.Razor.xml
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\Newtonsoft.Json.xml
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\Antlr3.Runtime.pdb
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\obj\Debug\ShoppingOnline.csprojAssemblyReference.cache
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\obj\Debug\ShoppingOnline.csproj.CoreCompileInputs.cache
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\obj\Debug\ShoppingOnline.csproj.CopyComplete
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\obj\Debug\ShoppingOnline.dll
+C:\Users\ADMINS\OneDrive\Desktop\doc web clothe\ShoppingOnline\obj\Debug\ShoppingOnline.pdb
+C:\Users\Duy\Desktop\ShoppingOnline\bin\ShoppingOnline.dll.config
+C:\Users\Duy\Desktop\ShoppingOnline\bin\ShoppingOnline.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\ShoppingOnline.pdb
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\csc.exe
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\csc.exe.config
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\csc.rsp
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\csi.exe
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\csi.rsp
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\System.AppContext.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\vbc.exe
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\vbc.exe.config
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\vbc.rsp
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\VBCSCompiler.exe
+C:\Users\Duy\Desktop\ShoppingOnline\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Duy\Desktop\ShoppingOnline\bin\Antlr3.Runtime.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\EntityFramework.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\EntityFramework.SqlServer.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\Newtonsoft.Json.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\PagedList.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\PagedList.Mvc.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\System.Web.Helpers.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\System.Web.Mvc.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\System.Web.Optimization.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\System.Web.Razor.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\System.Web.WebPages.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\System.Web.WebPages.Razor.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\WebGrease.dll
+C:\Users\Duy\Desktop\ShoppingOnline\bin\EntityFramework.xml
+C:\Users\Duy\Desktop\ShoppingOnline\bin\EntityFramework.SqlServer.xml
+C:\Users\Duy\Desktop\ShoppingOnline\bin\PagedList.xml
+C:\Users\Duy\Desktop\ShoppingOnline\bin\PagedList.Mvc.xml
+C:\Users\Duy\Desktop\ShoppingOnline\bin\System.Web.Helpers.xml
+C:\Users\Duy\Desktop\ShoppingOnline\bin\System.Web.Mvc.xml
+C:\Users\Duy\Desktop\ShoppingOnline\bin\System.Web.Optimization.xml
+C:\Users\Duy\Desktop\ShoppingOnline\bin\System.Web.Razor.xml
+C:\Users\Duy\Desktop\ShoppingOnline\bin\System.Web.WebPages.xml
+C:\Users\Duy\Desktop\ShoppingOnline\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Duy\Desktop\ShoppingOnline\bin\System.Web.WebPages.Razor.xml
+C:\Users\Duy\Desktop\ShoppingOnline\bin\Newtonsoft.Json.xml
+C:\Users\Duy\Desktop\ShoppingOnline\bin\Antlr3.Runtime.pdb
+C:\Users\Duy\Desktop\ShoppingOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Duy\Desktop\ShoppingOnline\obj\Debug\ShoppingOnline.csprojAssemblyReference.cache
+C:\Users\Duy\Desktop\ShoppingOnline\obj\Debug\ShoppingOnline.csproj.CoreCompileInputs.cache
+C:\Users\Duy\Desktop\ShoppingOnline\obj\Debug\ShoppingOnline.csproj.CopyComplete
+C:\Users\Duy\Desktop\ShoppingOnline\obj\Debug\ShoppingOnline.dll
+C:\Users\Duy\Desktop\ShoppingOnline\obj\Debug\ShoppingOnline.pdb

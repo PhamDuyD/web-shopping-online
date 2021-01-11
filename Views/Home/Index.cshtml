@@ -1,0 +1,484 @@
+﻿@{
+    ViewBag.Title = "Trang chủ | E-Shopper";
+    Layout = "~/Views/Shared/_layout.cshtml";
+    var lstProduct = ViewBag.LstProduct as List<ShoppingOnline.Models.Entities.Product>;
+    var lstPhuKienThoiTrang = ViewBag.lstPhuKienThoiTrang as List<ShoppingOnline.Models.Entities.Product>;
+    var lstQuanAoNam = ViewBag.lstQuanAoNam as List<ShoppingOnline.Models.Entities.Product>;
+    var lstQuanApNu = ViewBag.lstQuanApNu as List<ShoppingOnline.Models.Entities.Product>;
+    var lstValiBalo = ViewBag.lstValiBalo as List<ShoppingOnline.Models.Entities.Product>;
+    var lstProductRecommend_1 = ViewBag.lstProductRecommend_1 as List<ShoppingOnline.Models.Entities.Product>;
+    var lstProductRecommend_2 = ViewBag.lstProductRecommend_2 as List<ShoppingOnline.Models.Entities.Product>;
+}
+
+<section id="slider">
+    <!--slider-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="slider-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#slider-carousel" data-slide-to="1"></li>
+                        <li data-target="#slider-carousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="col-sm-6">
+                                <h1><span>E</span>-SHOPPER</h1>
+                                <h2>Free E-Commerce Template</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <button type="button" class="btn btn-default get">Get it now</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="~/Assets/images/home/girl1.jpg" class="girl img-responsive" alt="" />
+                                <img src="~/Assets/images/home/pricing.png" class="pricing" alt="" />
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-sm-6">
+                                <h1><span>E</span>-SHOPPER</h1>
+                                <h2>100% Responsive Design</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <button type="button" class="btn btn-default get">Get it now</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="~/Assets/images/home/girl2.jpg" class="girl img-responsive" alt="" />
+                                <img src="~/Assets/images/home/pricing.png" class="pricing" alt="" />
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="col-sm-6">
+                                <h1><span>E</span>-SHOPPER</h1>
+                                <h2>Free Ecommerce Template</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <button type="button" class="btn btn-default get">Get it now</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="~/Assets/images/home/girl3.jpg" class="girl img-responsive" alt="" />
+                                <img src="~/Assets/images/home/pricing.png" class="pricing" alt="" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section><!--/slider-->
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="left-sidebar">
+                    <h2>Danh mục sản phẩm</h2>
+                    <div class="panel-group category-products" id="accordian">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="#">Phụ kiện thời trang</a></h4>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="#">Thời trang nam</a></h4>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="#">Thời trang nữ</a></h4>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="#">Vali-Balo-Túi xách</a></h4>
+                            </div>
+                        </div>
+                    </div><!--/category-products-->
+
+                    <div class="shipping text-center">
+                        <!--shipping-->
+                        <img src="~/Assets/images/home/shipping.jpg" alt="" />
+                    </div><!--/shipping-->
+
+                </div>
+            </div>
+
+            <div class="col-sm-9 padding-right">
+                <div class="features_items">
+                    <!--features_items-->
+                    <h2 class="title text-center">Sản phẩm mới</h2>
+
+                    @foreach (var item in lstProduct)
+                    {
+                        var url = "/san-pham/" + item.Metatitle.Trim().Trim() + "-" + item.ID;
+                        <div class="back-product">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <a href="@url">
+                                            <img src="~/Assets/images/product/@item.Image" width="255px" height="319px" alt="" />
+                                        </a>
+                                        @if (item.Price != null)
+                                        {
+                                            var discount = (int)((1 - (item.Price / item.Promotion_Price)) * 100);
+                                            <p class="price-sale">
+                                                <span class="final-price">
+                                                    @item.Price.Value.ToString("N0") ₫
+                                                    <span class="sale-tag">-@discount%</span>
+                                                </span>
+                                                <span class="promotion-price">@item.Promotion_Price.Value.ToString("N0") ₫</span>
+                                            </p>
+                                        }
+                                        else
+                                        {
+                                            <p class="price-sale">
+                                                <span class="final-price">
+                                                    @item.Promotion_Price.Value.ToString("N0") ₫
+                                                </span>
+                                            </p>
+                                        }
+
+                                        <a href="@url">
+                                            <p>@item.Product_Name</p>
+                                        </a>
+                                    </div>
+                                    @*<div class="btn-cart">
+                                        <a href="javascript:void(0)" class="btn btn-default add-to-cart btn-addCart" data-id="@item.ID" data-quantity="1">
+                                            <i class="fa fa-shopping-cart"></i>Thêm giỏ hàng
+                                        </a>
+                                    </div>*@
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div><!--features_items-->
+
+                <div class="category-tab">
+                    <!--category-tab-->
+                    <div class="col-sm-12">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#PhuKienThoiTrang" data-toggle="tab">Phụ kiện thời trang</a></li>
+                            <li><a href="#ThoiTrangNam" data-toggle="tab">Thời trang nam</a></li>
+                            <li><a href="#ThoiTrangNu" data-toggle="tab">Thời trang nữ</a></li>
+                            <li><a href="#ValiBaloTuiXach" data-toggle="tab">Vali-Balo-Túi xách</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane fade active in" id="PhuKienThoiTrang">
+                            @foreach (var item in lstPhuKienThoiTrang)
+                            {
+                                var url = "/san-pham/" + item.Metatitle.Trim() + "-" + item.ID;
+                                <div class="col-sm-3">
+                                    <div class="product-image-wrapper">
+                                        <div class="single-products">
+                                            <div class="productinfo text-center">
+                                                <a href="@url">
+                                                    <img src="~/Assets/images/product/@item.Image" width="255px" height="319px" alt="" />
+                                                </a>
+                                                @if (item.Price != null)
+                                                {
+                                                    var discount = (int)((1 - (item.Price / item.Promotion_Price)) * 100);
+                                                    <p class="price-sale">
+                                                        <span class="final-price">
+                                                            @item.Price.Value.ToString("N0") ₫
+                                                            <span class="sale-tag">-@discount%</span>
+                                                        </span>
+                                                        <span class="promotion-price">@item.Promotion_Price.Value.ToString("N0") ₫</span>
+                                                    </p>
+                                                }
+                                                else
+                                                {
+                                                    <p class="price-sale">
+                                                        <span class="final-price">
+                                                            @item.Promotion_Price.Value.ToString("N0") ₫
+                                                        </span>
+                                                    </p>
+                                                }
+
+                                                <a href="@url">
+                                                    <p>@item.Product_Name</p>
+                                                </a>
+                                            </div>
+                                            @*<div class="btn-cart-tab">
+                                                <a href="javascript:void(0)" class="btn btn-default add-to-cart btn-addCart" data-id="@item.ID" data-quantity="1">
+                                                    <i class="fa fa-shopping-cart"></i>Thêm giỏ hàng
+                                                </a>
+                                            </div>*@
+
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+
+                        <div class="tab-pane fade" id="ThoiTrangNam">
+                            @foreach (var item in lstQuanAoNam)
+                            {
+                                var url = "/san-pham/" + item.Metatitle.Trim() + "-" + item.ID;
+                                <div class="col-sm-3">
+                                    <div class="product-image-wrapper">
+                                        <div class="single-products">
+                                            <div class="productinfo text-center">
+                                                <a href="@url">
+                                                    <img src="~/Assets/images/product/@item.Image" width="255px" height="319px" alt="" />
+                                                </a>
+                                                @if (item.Price != null)
+                                                {
+                                                    var discount = (int)((1 - (item.Price / item.Promotion_Price)) * 100);
+                                                    <p class="price-sale">
+                                                        <span class="final-price">
+                                                            @item.Price.Value.ToString("N0") ₫
+                                                            <span class="sale-tag">-@discount%</span>
+                                                        </span>
+                                                        <span class="promotion-price">@item.Promotion_Price.Value.ToString("N0") ₫</span>
+                                                    </p>
+                                                }
+                                                else
+                                                {
+                                                    <p class="price-sale">
+                                                        <span class="final-price">
+                                                            @item.Promotion_Price.Value.ToString("N0") ₫
+                                                        </span>
+                                                    </p>
+                                                }
+
+                                                <a href="@url">
+                                                    <p>@item.Product_Name</p>
+                                                </a>
+                                            </div>
+                                            @*<div class="btn-cart-tab">
+                                                <a href="javascript:void(0)" class="btn btn-default add-to-cart btn-addCart" data-id="@item.ID" data-quantity="1">
+                                                    <i class="fa fa-shopping-cart"></i>Thêm giỏ hàng
+                                                </a>
+                                            </div>*@
+
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+
+                        </div>
+
+                        <div class="tab-pane fade" id="ThoiTrangNu">
+                            @foreach (var item in lstQuanApNu)
+                            {
+                                var url = "/san-pham/" + item.Metatitle.Trim() + "-" + item.ID;
+                                <div class="col-sm-3">
+                                    <div class="product-image-wrapper">
+                                        <div class="single-products">
+                                            <div class="productinfo text-center">
+                                                <a href="@url">
+                                                    <img src="~/Assets/images/product/@item.Image" width="255px" height="319px" alt="" />
+                                                </a>
+                                                @if (item.Price != null)
+                                                {
+                                                    var discount = (int)((1 - (item.Price / item.Promotion_Price)) * 100);
+                                                    <p class="price-sale">
+                                                        <span class="final-price">
+                                                            @item.Price.Value.ToString("N0") ₫
+                                                            <span class="sale-tag">-@discount%</span>
+                                                        </span>
+                                                        <span class="promotion-price">@item.Promotion_Price.Value.ToString("N0") ₫</span>
+                                                    </p>
+                                                }
+                                                else
+                                                {
+                                                    <p class="price-sale">
+                                                        <span class="final-price">
+                                                            @item.Promotion_Price.Value.ToString("N0") ₫
+                                                        </span>
+                                                    </p>
+                                                }
+
+                                                <a href="@url">
+                                                    <p>@item.Product_Name</p>
+                                                </a>
+                                            </div>
+                                            @*<div class="btn-cart-tab">
+                                                <a href="javascript:void(0)" class="btn btn-default add-to-cart btn-addCart" data-id="@item.ID" data-quantity="1">
+                                                    <i class="fa fa-shopping-cart"></i>Thêm giỏ hàng
+                                                </a>
+                                            </div>*@
+
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+
+                        <div class="tab-pane fade" id="ValiBaloTuiXach">
+                            @foreach (var item in lstValiBalo)
+                            {
+                                var url = "/san-pham/" + item.Metatitle.Trim() + "-" + item.ID;
+                                <div class="col-sm-3">
+                                    <div class="product-image-wrapper">
+                                        <div class="single-products">
+                                            <div class="productinfo text-center">
+                                                <a href="@url">
+                                                    <img src="~/Assets/images/product/@item.Image" width="255px" height="319px" alt="" />
+                                                </a>
+                                                @if (item.Price != null)
+                                                {
+                                                    var discount = (int)((1 - (item.Price / item.Promotion_Price)) * 100);
+                                                    <p class="price-sale">
+                                                        <span class="final-price">
+                                                            @item.Price.Value.ToString("N0") ₫
+                                                            <span class="sale-tag">-@discount%</span>
+                                                        </span>
+                                                        <span class="promotion-price">@item.Promotion_Price.Value.ToString("N0") ₫</span>
+                                                    </p>
+                                                }
+                                                else
+                                                {
+                                                    <p class="price-sale">
+                                                        <span class="final-price">
+                                                            @item.Promotion_Price.Value.ToString("N0") ₫
+                                                        </span>
+                                                    </p>
+                                                }
+
+                                                <a href="@url">
+                                                    <p>@item.Product_Name</p>
+                                                </a>
+                                            </div>
+                                            @*<div class="btn-cart-tab">
+                                                <a href="javascript:void(0)" class="btn btn-default add-to-cart btn-addCart" data-id="@item.ID" data-quantity="1">
+                                                    <i class="fa fa-shopping-cart"></i>Thêm giỏ hàng
+                                                </a>
+                                            </div>*@
+
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+
+                    </div>
+                </div><!--/category-tab-->
+
+                <div class="recommended_items">
+                    <!--recommended_items-->
+                    <h2 class="title text-center">Sản phẩm dành cho bạn</h2>
+
+                    <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+
+
+                            <div class="item active">
+                                @foreach (var item in lstProductRecommend_1)
+                                {
+                                    var url = "/san-pham/" + item.Metatitle.Trim() + "-" + item.ID;
+                                    <div class="col-sm-4">
+                                        <div class="product-image-wrapper">
+                                            <div class="single-products">
+                                                <div class="productinfo text-center">
+                                                    <a href="@url">
+                                                        <img src="~/Assets/images/product/@item.Image" width="255px" height="319px" alt="" />
+                                                    </a>
+                                                    @if (item.Price != null)
+                                                    {
+                                                        var discount = (int)((1 - (item.Price / item.Promotion_Price)) * 100);
+                                                        <p class="price-sale">
+                                                            <span class="final-price">
+                                                                @item.Price.Value.ToString("N0") ₫
+                                                                <span class="sale-tag">-@discount%</span>
+                                                            </span>
+                                                            <span class="promotion-price">@item.Promotion_Price.Value.ToString("N0") ₫</span>
+                                                        </p>
+                                                    }
+                                                    else
+                                                    {
+                                                        <p class="price-sale">
+                                                            <span class="final-price">
+                                                                @item.Promotion_Price.Value.ToString("N0") ₫
+                                                            </span>
+                                                        </p>
+                                                    }
+
+                                                    <a href="@url">
+                                                        <p>@item.Product_Name</p>
+                                                    </a>
+                                                </div>
+                                                @*<div class="btn-cart">
+                                                    <a href="javascript:void(0)" class="btn btn-default add-to-cart btn-addCart" data-id="@item.ID" data-quantity="1">
+                                                        <i class="fa fa-shopping-cart"></i>Thêm giỏ hàng
+                                                    </a>
+                                                </div>*@
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+
+                            </div>
+                            <div class="item">
+                                @foreach (var item in lstProductRecommend_2)
+                                {
+                                    var url = "/san-pham/" + item.Metatitle.Trim().Trim().Trim() + "-" + item.ID;
+                                    <div class="col-sm-4">
+                                        <div class="product-image-wrapper">
+                                            <div class="single-products">
+                                                <div class="productinfo text-center">
+                                                    <a href="@url">
+                                                        <img src="~/Assets/images/product/@item.Image" width="255px" height="319px" alt="" />
+                                                    </a>
+                                                    @if (item.Price != null)
+                                                    {
+                                                        var discount = (int)((1 - (item.Price / item.Promotion_Price)) * 100);
+                                                        <p class="price-sale">
+                                                            <span class="final-price">
+                                                                @item.Price.Value.ToString("N0") ₫
+                                                                <span class="sale-tag">-@discount%</span>
+                                                            </span>
+                                                            <span class="promotion-price">@item.Promotion_Price.Value.ToString("N0") ₫</span>
+                                                        </p>
+                                                    }
+                                                    else
+                                                    {
+                                                        <p class="price-sale">
+                                                            <span class="final-price">
+                                                                @item.Promotion_Price.Value.ToString("N0") ₫
+                                                            </span>
+                                                        </p>
+                                                    }
+
+                                                    <a href="@url">
+                                                        <p>@item.Product_Name</p>
+                                                    </a>
+                                                </div>
+                                                @*<div class="btn-cart">
+                                                    <a href="javascript:void(0)" class="btn btn-default add-to-cart btn-addCart" data-id="@item.ID" data-quantity="1">
+                                                        <i class="fa fa-shopping-cart"></i>Thêm giỏ hàng
+                                                    </a>
+                                                </div>*@
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div><!--/recommended_items-->
+
+            </div>
+        </div>
+    </div>
+</section>

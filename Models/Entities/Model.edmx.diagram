@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d0a8312cc67a4a2ea5c69fa719fddf55" Name="Diagram1">
+        <EntityTypeShape EntityType="Shopping_OnlineModel.Category" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopping_OnlineModel.Inward" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopping_OnlineModel.Inward_Detail" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopping_OnlineModel.Order" Width="1.5" PointX="8.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopping_OnlineModel.Order_Detail" Width="1.5" PointX="7.5" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopping_OnlineModel.Product" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopping_OnlineModel.Provider" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopping_OnlineModel.Review" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopping_OnlineModel.Serial_Type" Width="1.5" PointX="5.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopping_OnlineModel.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopping_OnlineModel.User" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <AssociationConnector Association="Shopping_OnlineModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopping_OnlineModel.FK_Inward_Detail_Inward" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopping_OnlineModel.FK_Inward_Provider" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopping_OnlineModel.FK_Inward_Detail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopping_OnlineModel.FK_Inward_Detail_Serial_Type" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopping_OnlineModel.FK_Order_Detail_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopping_OnlineModel.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopping_OnlineModel.FK_Order_Detail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopping_OnlineModel.FK_Order_Detail_Serial_Type" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopping_OnlineModel.FK_Product_Provider" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopping_OnlineModel.FK_Review_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopping_OnlineModel.FK_Serial_Type_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopping_OnlineModel.FK_Review_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
